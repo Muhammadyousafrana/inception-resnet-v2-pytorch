@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Inception-ResNet-v2 in PyTorch</title>
+  <desc id="desc">A dark blue banner illustrating parallel convolution branches joining residual paths.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="1" stop-color="#102d48"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#48d6c4"/>
+      <stop offset="1" stop-color="#629bff"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
+  <circle cx="1010" cy="40" r="220" fill="#185176" opacity=".15"/>
+  <circle cx="1100" cy="330" r="170" fill="#28c9c0" opacity=".08"/>
+  <g fill="none" stroke="url(#glow)" stroke-linecap="round" stroke-linejoin="round" opacity=".88">
+    <path d="M770 180H850M850 180V95H940M850 180H940M850 180v85h90" stroke-width="5"/>
+    <path d="M1020 95h55v85h-55M1020 180h55v85h-55M1075 180h72" stroke-width="5"/>
+    <path d="M940 95h80M940 180h80M940 265h80" stroke-width="3" opacity=".48"/>
+    <path d="M850 180H1148" stroke-width="2" stroke-dasharray="5 10" opacity=".3"/>
+  </g>
+  <g filter="url(#softGlow)" fill="#55daca">
+    <circle cx="770" cy="180" r="9"/><circle cx="940" cy="95" r="8"/>
+    <circle cx="940" cy="180" r="8"/><circle cx="940" cy="265" r="8"/>
+    <circle cx="1147" cy="180" r="10"/>
+  </g>
+  <g fill="#122f4d" stroke="#6caaff" stroke-width="2">
+    <rect x="798" y="143" width="55" height="74" rx="12"/>
+    <rect x="982" y="72" width="42" height="46" rx="10"/>
+    <rect x="982" y="157" width="42" height="46" rx="10"/>
+    <rect x="982" y="242" width="42" height="46" rx="10"/>
+    <rect x="1070" y="157" width="58" height="46" rx="10"/>
+  </g>
+  <g fill="#f2f7ff" font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="72" y="145" font-size="17" font-weight="700" letter-spacing="4" fill="#61d9cb">COMPUTER VISION · PYTORCH</text>
+    <text x="68" y="208" font-size="47" font-weight="750" letter-spacing="-.8">Inception-ResNet-v2</text>
+    <text x="72" y="253" font-size="23" font-weight="450" fill="#b8cbe0">Built from scratch, branch by branch.</text>
+  </g>
+  <path d="M72 290h340" stroke="#4bd7c5" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+</svg>
